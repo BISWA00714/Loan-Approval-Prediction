@@ -1,12 +1,14 @@
 # Loan-Approval-Prediction
-📊 Loan Approval Prediction using Machine Learning
-🔍 Project Overview
+
+**📊 Loan Approval Prediction using Machine Learning**
+
+**🔍 Project Overview**
 
 This project focuses on building a Machine Learning classification model to predict whether a loan application will be approved based on applicant demographic and financial information.
 
 The goal of this project is to transform raw financial data into actionable insights and develop a predictive system that assists in data-driven loan approval decisions.
 
-🎯 Problem Statement
+**🎯 Problem Statement**
 
 Financial institutions receive thousands of loan applications.
 Manually evaluating each application is time-consuming and prone to bias.
@@ -19,59 +21,49 @@ Identify key approval factors
 
 Build a predictive model for loan approval status
 
-📁 Dataset Information
+**📁 Dataset Information**
 
-The dataset contains applicant details such as:
-
-Gender
-
-Marital Status
-
-Dependents
-
-Applicant Income
-
-Coapplicant Income
-
-Loan Amount
-
-Loan Term
-
-Credit History
-
-Property Area
-
-Loan Status (Target Variable)
+- The dataset contains applicant details such as:
+- Gender
+- Marital Status
+- Dependents
+- Applicant Income
+- Coapplicant Income
+- Loan Amount
+- Loan Term
+- Credit History
+- Property Area
+- Loan Status (Target Variable)
 
 Target Variable:
-
 Loan_Status → Approved (1) / Not Approved (0)
-🧹 Data Preprocessing
 
-Handled missing values using statistical imputation
+**🧹 Data Preprocessing**
 
-Converted categorical variables into numerical format
+- Handled missing values using statistical imputation
 
-Cleaned inconsistent data entries
+- Converted categorical variables into numerical format
 
-Feature engineering for improved prediction
+- Cleaned inconsistent data entries
 
-Converted boolean features into numeric values
+- Feature engineering for improved prediction
 
-📊 Exploratory Data Analysis (EDA)
+- Converted boolean features into numeric values
 
-Performed analysis to understand:
+**📊 Exploratory Data Analysis (EDA)**
 
-Loan approval distribution
+- Performed analysis to understand:
 
-Impact of credit history
+- Loan approval distribution
 
-Income vs loan amount relationship
+- Impact of credit history
+
+- Income vs loan amount relationship
 
 Applicant demographic patterns
 
 🤖 Models Used
-1️⃣ Logistic Regression
+*1️⃣ Logistic Regression*
 
 Baseline classification model
 
@@ -79,13 +71,13 @@ Achieved 78.86% accuracy
 
 Provided stable and interpretable predictions
 
-2️⃣ Decision Tree Classifier
+*2️⃣ Decision Tree Classifier*
 
 Compared performance with Logistic Regression
 
 Lower accuracy but useful for comparison
 
-📈 Model Evaluation Metrics
+**📈 Model Evaluation Metrics**
 
 Accuracy Score
 
@@ -97,7 +89,7 @@ F1 Score
 
 Logistic Regression was selected as the final model due to better overall performance.
 
-🧠 Key Insights
+**🧠 Key Insights**
 
 Credit history strongly influences loan approval.
 
@@ -107,7 +99,7 @@ Model evaluation requires more than accuracy — recall and precision are critic
 
 Logistic Regression performed more consistently than Decision Tree.
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
 Python
 
@@ -123,13 +115,14 @@ Seaborn
 
 Jupyter Notebook
 
-📌 Project Structure
+# 📌 Project Structure
 loan-approval-prediction-ml/
 │
 ├── Loan_Prediction.ipynb
 ├── dataset.csv
 └── README.md
-🚀 Future Improvements
+
+**🚀 Future Improvements**
 
 Apply Random Forest & XGBoost
 
